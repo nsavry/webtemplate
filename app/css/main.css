@@ -16,6 +16,14 @@ a {
 body {
 }
 
+.nav-view {
+
+}
+
+.nav-view:hover {
+	cursor: pointer;
+}
+
 .navbar-nav .active {
     background-color: red;
     color: red;
