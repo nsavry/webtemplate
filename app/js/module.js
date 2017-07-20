@@ -1,4 +1,4 @@
 var mainModule = angular.module('mainModule', [
-	'zTemplateRest',
+	'homeRest',
 	'ui.router'
 ]);

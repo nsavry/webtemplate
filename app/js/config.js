@@ -1,10 +1,11 @@
 mainModule.config(function($stateProvider, $urlRouterProvider) {
 
-	$urlRouterProvider.otherwise('/zTemplate');
+	$urlRouterProvider.otherwise('/home');
 
 	$stateProvider
-	.state('zTemplate', {
-		url: '/zTemplate',
-		templateUrl: 'view/zTemplate/zTemplate.html'
-	});
+	.state('home', {
+		url: '/home',
+		templateUrl: 'view/home/home.html'
+	})
+	;
 });

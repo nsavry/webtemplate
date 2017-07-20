@@ -16,6 +16,10 @@ a {
 body {
 }
 
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+    color: #9d9d9d;
+}
+
 .nav-view {
 
 }

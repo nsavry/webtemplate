@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="view/home/home.css" />
+
+<div ng-controller="homeCtrl" class="home">
+	<div ng-show="main.load">
+		<div class="text-center">
+			<img src="img/loading.gif" class="loading-img" />
+		</div>
+	</div>
+	<div ng-hide="main.load">
+		<div class="jumbotron text-center">
+			<h1>home</h1>
+			<p>This is the <span class="text-danger">home</span> page.</p>
+		</div>
+	</div>
+</div>
