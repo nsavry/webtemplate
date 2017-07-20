@@ -12,20 +12,16 @@ you need to launch:
 - npm install
 - bower install
 
-## Creating new feature
+## Creating new view
 ### using
 
-a script **newFeature.sh** is present in the root. this scipt take the name of the feature in fisrt parameter
-- ./newFeature namefeature
+a script **newView.sh** is present in the root. this script take the name of the view in first parameter
+- ./newView nameview
 
 ### dependencies
 
-after this script you need make the dependencies in your **index.html** and **js/module.js**
-
-### route
-
-to create new route for your feature, you have to edit **js/config.js**
+after this script you need to verify if the dependancies in your **index.html**, **js/module.js** and **js/config.js** were present
 
 ### nav-bar
 
-to add your feature in the nav-bar you have to modify your **index.html** and edit the **nav-bar** section
+to add your view in the nav-bar you have to modify your **index.html** and edit the **nav-bar** section

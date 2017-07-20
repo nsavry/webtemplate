@@ -38,31 +38,9 @@ app.use(function (req, res, next) {
 // API
 var api = express();
 
-// api.get("/get", function(req, res) {
-// 	res.header("Access-Control-Allow-Origin", "*");
-// 	var toSend = {};
-// 	MongoClient.connect("mongodb://localhost/", function(error, db) {
-// 		if (error) {console.log(error);}
-// 		db.collection("").find().toArray(function (error, results) {
-// 		});
-// 	});
-// 	res.send({succes: true});
-// });
-
-//app.use(bodyParser({limit: '5mb'}))
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 	
-// api.post("/post", function (req, res) {
-// 	res.header("Access-Control-Allow-Origin", "*");
-// 	MongoClient.connect("mongodb://localhost/", function(error, db) {
-// 		if (error) {console.log(error);}
-// 		db.collection("img_delta").find().toArray(function (error, results) {
-// 		});
-// 	});
-// 	res.send({succes: true});
-// });
-
 app.use("/api", api);
 
 http.createServer(app).listen(port);
