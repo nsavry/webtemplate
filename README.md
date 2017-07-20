@@ -15,12 +15,12 @@ you need to launch:
 ## Creating new view
 ### using
 
-a script **newView.sh** is present in the root. this script take the name of the view in first parameter
+a script **newView.sh** is present in the root folder. this script takes the name of the view in first parameter
 - ./newView nameview
 
 ### dependencies
 
-after this script you need to verify if the dependancies in your **index.html**, **js/module.js** and **js/config.js** were present
+after this script you need to verify if the dependencies in your **index.html**, **js/module.js** and **js/config.js** were present
 
 ### nav-bar
 
